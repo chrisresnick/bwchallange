@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({selected, setSelected, pages}) => {
+const Menu = ({selected, setSelected, pages}) => {
     return (
         <div className="menu">
             {pages.map((page, idx) => {
@@ -16,3 +16,5 @@ export default ({selected, setSelected, pages}) => {
         </div>
     )
 }
+
+export default Menu;

@@ -15,19 +15,28 @@ body {
 
 .contact {
     height: 5vh;
-    width: 10vw;
+    width: 20vw;
+    max-width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     outline: 1px solid white;
     color: white;
     cursor: pointer;
+    padding-top: .5vh;
 }
 
 .marquee {
     display: flex;
     color:white;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 600px ){
+    .marquee, .header, .callToAction{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .callToAction {
@@ -49,7 +58,7 @@ body {
 .ctaButton{
     width: 33%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-size: 0.688rem;
     font-weight: 500;
@@ -59,7 +68,7 @@ body {
 .ctaButton::after{
     margin-left: .5vw;
     content: "→";
-    color: orange;
+    color: #ffc001;
     font-size: 0.688rem;
     font-weight: 500;
     cursor: pointer;
@@ -90,7 +99,7 @@ body {
 }
 
 .linkSelected {
-    color: yellow;
+    color: #ffc001;
 }
 
 .linkNotSelected {

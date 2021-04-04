@@ -1,4 +1,4 @@
-export default {
+const content = {
 	"pages": [
 		{
 			"title": "Industries",
@@ -41,3 +41,5 @@ export default {
 		}
 	]
 }
+
+export default content;

@@ -19,9 +19,9 @@ function App() {
         padding: "5vh 5vw 0 5vw"
       }}
     >
-      <div className="header">
+       <div className="header">
         <div className="menuHolder">
-          <img src="./imgs/abc_logo.svg"/>
+          <img src="./imgs/abc_logo.svg" alt="company logo"/>
           <Menu selected={selected} setSelected={setSelected} pages={pages}/>
         </div>
         <div className="contact">Contact Us</div>
