@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -15,6 +16,7 @@
     align-items: center;
     outline: 1px solid white;
     color: white;
+    cursor: pointer;
 }
 
 .marquee {
@@ -33,7 +35,6 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 15vh;
 }
 
 .headline{
@@ -54,10 +55,15 @@
     font-size: 0.875rem;
 }
 
+.menu h2{
+    cursor: pointer;
+    padding-top: .5vh;
+}
+
 .linkSelected {
-    color: yellow
+    color: yellow;
 }
 
 .linkNotSelected {
-    color: white
+    color: white;
 }
