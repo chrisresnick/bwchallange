@@ -2,10 +2,45 @@
     margin: 0;
 }
 
-/* body {
-    background-image: url("./imgs/slide_one.jpg");
-    background-size: cover;
-} */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid white;
+    color: white;
+}
+
+.marquee {
+    display: flex;
+    color:white;
+    justify-content: space-between;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+}
+
+.ctaInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 15vh;
+}
+
+.headline{
+    width: 33vw
+}
+
+.subhead {
+    width: 20vw
+}
 
 .linkSelected {
     color: yellow
