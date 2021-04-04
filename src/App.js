@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import Menu from "./menu"
 import content from "./content";
 
+//The menu component makes it easy to add more pages; as longs as the JSON follows the same pattern, new pages
+//can be added to the "pages" array in the JSON and links will be added to the menu and will correspond to the correct content 
 function App() {
   const pages = content.pages
   const [selected, setSelected] = useState(0)
