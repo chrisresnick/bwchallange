@@ -8,6 +8,8 @@
 }
 
 .contact {
+    height: 5vh;
+    width: 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +37,21 @@
 }
 
 .headline{
-    width: 33vw
+    display: flex;
+    align-items: center;
+    max-width: 50vw;
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 5.25rem;
 }
 
 .subhead {
-    width: 20vw
+    display: flex;
+    align-items: center;
+    max-width: 33vw;
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 0.875rem;
 }
 
 .linkSelected {

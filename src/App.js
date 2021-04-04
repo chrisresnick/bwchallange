@@ -22,7 +22,10 @@ function App() {
       }}
     >
       <div className="header">
-        <Menu selected={selected} setSelected={setSelected}/>
+        <div className="menuHolder">
+          <img src="./imgs/abc_logo.svg"/>
+          <Menu selected={selected} setSelected={setSelected}/>
+        </div>
         <div className="contact">Contact Us</div>
       </div>
       <div className="marquee">
