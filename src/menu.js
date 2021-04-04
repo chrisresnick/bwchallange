@@ -1,12 +1,12 @@
 import React from "react";
-import content from "./content";
 
-export default ({selected, setSelected}) => {
+export default ({selected, setSelected, pages}) => {
     return (
         <div className="menu">
-            {content.pages.map((page, idx) => {
+            {pages.map((page, idx) => {
                 return (
                 <h2 
+                    key={`link${idx}`}
                     className={selected===idx?"linkSelected":"linkNotSelected"}
                     onClick={() => setSelected(idx)}
                 >

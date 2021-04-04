@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Menu from "./menu"
+import Menu from "./Menu"
 import content from "./content";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <div className="header">
         <div className="menuHolder">
           <img src="./imgs/abc_logo.svg"/>
-          <Menu selected={selected} setSelected={setSelected}/>
+          <Menu selected={selected} setSelected={setSelected} pages={pages}/>
         </div>
         <div className="contact">Contact Us</div>
       </div>
