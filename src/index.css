@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 .header {
     display: flex;
     justify-content: space-between;

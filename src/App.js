@@ -14,7 +14,7 @@ function App() {
         justifyContent:"space-between",
         backgroundImage: `url("./imgs/${pages[selected].blocks[0].background}")`,
         backgroundSize: "cover",
-        height: "100vh",
+        minHeight: "100vh",
         maxWidth: "100vw",
         paddingTop: "5vh",
         paddingLeft: "5vw",
