@@ -15,7 +15,7 @@ function App() {
         flexDirection:"column",
         justifyContent:"space-between",
         minHeight: "100vh",
-        maxWidth: "100vw",
+        width: "100vw",
         padding: "5vh 5vw 0 5vw"
       }}
     >

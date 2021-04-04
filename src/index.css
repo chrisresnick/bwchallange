@@ -78,9 +78,10 @@ body {
 .subhead {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     width: 33%;
     font-size: 0.875rem;
+    line-height: 1.86;
 }
 
 .menu h2{
