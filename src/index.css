@@ -4,6 +4,10 @@
     font-family: HelveticaNeue;
 }
 
+.header, .marquee, .callToAction {
+    max-width: 1440px;
+}
+
 body {
     background-color: black;
 }
@@ -23,7 +27,6 @@ body {
     outline: 1px solid white;
     color: white;
     cursor: pointer;
-    padding-top: .5vh;
 }
 
 .marquee {
@@ -36,6 +39,9 @@ body {
     .marquee, .header, .callToAction{
         flex-direction: column;
         align-items: center;
+    }
+    .menu{
+        padding-bottom: .5vh;
     }
 }
 
@@ -96,6 +102,8 @@ body {
 .menu h2{
     cursor: pointer;
     padding-top: .5vh;
+    font-size: .875rem;
+    font-weight: bold;
 }
 
 .linkSelected {
