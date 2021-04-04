@@ -16,9 +16,7 @@ function App() {
         backgroundSize: "cover",
         minHeight: "100vh",
         maxWidth: "100vw",
-        paddingTop: "5vh",
-        paddingLeft: "5vw",
-        paddingRight: "5vw"
+        padding: "5vh 5vw 0 5vw"
       }}
     >
       <div className="header">
