@@ -40,6 +40,9 @@ function App() {
         <div className="ctaInner">
           {pages[selected].blocks[0].cta}  
         </div>
+        <div className="ctaButton">
+          LET'S TALK. 
+        </div>
       </div>
     </div>
   );

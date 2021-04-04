@@ -26,25 +26,41 @@ body {
 .marquee {
     display: flex;
     color:white;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .callToAction {
     display: flex;
-    justify-content: center;
-}
-
-.ctaInner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
     background-color: white;
 }
 
+.ctaInner {
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaButton{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaButton::after{
+    margin-left: .5vw;
+    content: "→";
+    color: orange;
+}
+
 .headline{
+    width: 66%;
     display: flex;
     align-items: center;
-    max-width: 50vw;
+    justify-content: center;
     text-align: center;
     font-family: HelveticaNeue;
     font-size: 5.25rem;
@@ -53,8 +69,8 @@ body {
 .subhead {
     display: flex;
     align-items: center;
-    max-width: 33vw;
-    text-align: center;
+    justify-content: center;
+    width: 33%;
     font-family: HelveticaNeue;
     font-size: 0.875rem;
 }
