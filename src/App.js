@@ -13,9 +13,9 @@ function App() {
         flexDirection:"column",
         justifyContent:"space-between",
         backgroundImage: `url("./imgs/${pages[selected].blocks[0].background}")`,
-        backgroundSize:"cover",
+        backgroundSize: "cover",
         height: "100vh",
-        width: "100vw",
+        maxWidth: "100vw",
         paddingTop: "5vh",
         paddingLeft: "5vw",
         paddingRight: "5vw"
