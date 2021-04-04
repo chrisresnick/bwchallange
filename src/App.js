@@ -9,11 +9,11 @@ function App() {
     <div 
       className="main"
       style={{
+        backgroundImage: `url("./imgs/${pages[selected].blocks[0].background}")`,
+        backgroundSize: "cover",
         display:"flex",
         flexDirection:"column",
         justifyContent:"space-between",
-        backgroundImage: `url("./imgs/${pages[selected].blocks[0].background}")`,
-        backgroundSize: "cover",
         minHeight: "100vh",
         maxWidth: "100vw",
         padding: "5vh 5vw 0 5vw"
@@ -28,7 +28,7 @@ function App() {
       </div>
       <div className="marquee">
         <div className="headline">
-            {pages[selected].blocks[0].headline}
+          {pages[selected].blocks[0].headline}
         </div>
         <div className="subhead">
           {pages[selected].blocks[0].subhead}
